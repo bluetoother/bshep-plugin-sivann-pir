@@ -1,0 +1,19 @@
+{
+  "name": "bshep-plugin-sivann-pir",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluetoother/bshep-plugin-sivann-pir.git"
+  },
+  "author": "Hedy Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluetoother/bshep-plugin-sivann-pir/issues"
+  },
+  "homepage": "https://github.com/bluetoother/bshep-plugin-sivann-pir#readme"
+}
