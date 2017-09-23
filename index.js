@@ -1,8 +1,8 @@
 module.exports = {
     gattDefs: {
         service: [
-            { name: 'dInServ', uuid: '0xbb00' },
-            { name: 'aInServ', uuid: '0xbb10' }
+            { name: 'aInServ', uuid: '0xbb10' },
+            { name: 'pirServ', uuid: '0xbb90' }
         ],
         characteristic: [
             { name: 'aInConfig', uuid: '0xbb11', params: ['config'], types: ['boolean'] },
@@ -13,11 +13,7 @@ module.exports = {
         var isMine = false;
 
         if (basicInfo.manufacturer === 'sivann' &&
-            basicInfo.devName === 'PIR Sensor' &&
-            basicInfo.model === 'PIRSensor' &&
-            basicInfo.fwRev === 'v1.0.0' &&
-            basicInfo.hwRev === 'v1.0.0' &&
-            basicInfo.swRev === 'v1.0.0')
+            basicInfo.devName === 'PIR Sensor')
             isMine = true;
 
         return isMine;
